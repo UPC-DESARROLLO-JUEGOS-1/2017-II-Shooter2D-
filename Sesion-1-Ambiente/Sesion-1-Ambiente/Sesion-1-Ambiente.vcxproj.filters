@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{4aa578a6-42a0-4d66-9b0e-0f43b8812ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{a6066166-6122-4332-9035-d2a71422a191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\base">
+      <UniqueIdentifier>{a41d837d-1aa2-4a5a-945e-63294c9193c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games">
+      <UniqueIdentifier>{60515af0-5d07-46cc-a2e2-7953742d435d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D">
+      <UniqueIdentifier>{0f4f7bf0-97ce-4d56-8020-269fbfa4933c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{92af1649-06a3-4567-a275-83ffc769e44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D">
+      <UniqueIdentifier>{5c8030a6-2e4b-445a-9131-70f10348d118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\world">
+      <UniqueIdentifier>{bcf43fa1-a9ca-44b7-a7c1-11e82d43bcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\world">
+      <UniqueIdentifier>{9ea7e695-a9bb-43ae-b568-85be15d76faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\world\player">
+      <UniqueIdentifier>{9d2ce2d0-68cd-4629-97a0-d052eaeaccf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\world\player">
+      <UniqueIdentifier>{0eda1310-1eb2-48df-830e-cc826fb4bf1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\world\controllers">
+      <UniqueIdentifier>{25bf0bfb-b180-4019-bf03-41f87f138db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\world\controllers">
+      <UniqueIdentifier>{178bd30c-2b83-4bf8-a758-955afa611c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\world\bullets">
+      <UniqueIdentifier>{68ede873-282a-4bc3-9b39-806f03cb4e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\world\bullets">
+      <UniqueIdentifier>{063f6656-3958-413f-b0cb-beeb38f80ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\world\enemies">
+      <UniqueIdentifier>{20e453f4-a72d-45d4-ae65-27982044813b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\world\enemies">
+      <UniqueIdentifier>{227f61ce-0ec8-4077-9e99-e53cdec04d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Games\Shooter2D\hud">
+      <UniqueIdentifier>{3413b25b-2e5e-4681-95c7-8e6029c77ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Games\Shooter2D\hud">
+      <UniqueIdentifier>{e4721ea7-603d-4b94-8677-f65411e4d654}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NGameApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter2DScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp_Shooter2D.cpp">
+      <Filter>Source Files\Games\Shooter2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_Engine.cpp">
+      <Filter>Source Files\Games\Shooter2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_World.cpp">
+      <Filter>Source Files\Games\Shooter2D\world</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_BaseActor.cpp">
+      <Filter>Source Files\Games\Shooter2D\world</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_PlayerControl.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\player</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_Player.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\player</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_EnemyController.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_BulletController.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_BaseBullet.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_EnemyBullet.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_PlayerBullet.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_BaseEnemy.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_DummyEnemy.cpp">
+      <Filter>Source Files\Games\Shooter2D\world\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_GameHUD.cpp">
+      <Filter>Source Files\Games\Shooter2D\hud</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NGameApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumAppScenes.h">
+      <Filter>Header Files\Scenes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSceneGraph.h">
+      <Filter>Header Files\Scenes\base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter2DScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp_Shooter2D.h">
+      <Filter>Header Files\Games\Shooter2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_Engine.h">
+      <Filter>Header Files\Games\Shooter2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_World.h">
+      <Filter>Header Files\Games\Shooter2D\world</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_BaseActor.h">
+      <Filter>Header Files\Games\Shooter2D\world</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_Player.h">
+      <Filter>Header Files\Games\Shooter2D\world\player</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_PlayerControl.h">
+      <Filter>Header Files\Games\Shooter2D\world\player</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_EnemyController.h">
+      <Filter>Header Files\Games\Shooter2D\world\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_BulletController.h">
+      <Filter>Header Files\Games\Shooter2D\world\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_BaseBullet.h">
+      <Filter>Header Files\Games\Shooter2D\world\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_EnemyBullet.h">
+      <Filter>Header Files\Games\Shooter2D\world\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_PlayerBullet.h">
+      <Filter>Header Files\Games\Shooter2D\world\bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_BaseEnemy.h">
+      <Filter>Header Files\Games\Shooter2D\world\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_DummyEnemy.h">
+      <Filter>Header Files\Games\Shooter2D\world\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_GameHUD.h">
+      <Filter>Header Files\Games\Shooter2D\hud</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

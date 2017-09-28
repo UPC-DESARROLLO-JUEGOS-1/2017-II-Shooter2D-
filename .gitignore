@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+
 
 # Fortran module files
 *.mod
@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+*.opendb
+Sesion-1-Ambiente/UPCFramework/Debug/
+Sesion-1-Ambiente/Sesion-1-Ambiente/Debug/Sesion-1.0579FDD4.tlog/link.write.1.tlog
+Sesion-1-Ambiente/Sesion-1-Ambiente/Debug/
+*.db

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\com">
+      <UniqueIdentifier>{76f58a68-ca20-4881-bda5-7bf27d09da18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc">
+      <UniqueIdentifier>{402bf3b2-4f20-4a82-8988-abae4d7c5d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\display">
+      <UniqueIdentifier>{6b7a145a-fcbf-4750-8459-ee67be5d9983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com">
+      <UniqueIdentifier>{4b8f7dda-020b-48bf-8165-93b48c098ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc">
+      <UniqueIdentifier>{fd0d5dc8-744f-4bbd-b154-9e75485c3eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\display">
+      <UniqueIdentifier>{62fb0956-44a6-4f19-9a7e-f58905c10d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\utils">
+      <UniqueIdentifier>{ff0f0c11-2903-42d8-a013-de41223e55d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\utils">
+      <UniqueIdentifier>{6bbecc31-8a06-4fc3-8b82-2f3c06510bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core">
+      <UniqueIdentifier>{f1f1fdf6-8b84-413f-8946-b3dcec652fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render">
+      <UniqueIdentifier>{543cabb8-041e-4afc-8c05-d8e42dd91fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render\camera">
+      <UniqueIdentifier>{586a864e-d0e1-41d8-9f0a-7c39bc1ba3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core">
+      <UniqueIdentifier>{2fd42ef5-632e-4d7e-9744-241c6c0bbf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render">
+      <UniqueIdentifier>{9d9483e8-e00d-4e6a-a2c8-5c155deaee51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render\camera">
+      <UniqueIdentifier>{98edcc4b-1eab-463d-8c0a-16cf9248000e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\content">
+      <UniqueIdentifier>{9939b2ba-a318-4c7d-9fb8-722c3a353b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\content">
+      <UniqueIdentifier>{68af988d-3f2e-4521-b157-8531b7206cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\libs">
+      <UniqueIdentifier>{170caadf-462b-4248-a9bf-f09af33cf1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\libs">
+      <UniqueIdentifier>{082575f2-8af9-4046-bdfd-36734a10b8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render\shader">
+      <UniqueIdentifier>{e17c8e36-95bf-4640-92ee-a7a135b1130e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render\shader">
+      <UniqueIdentifier>{0c63d675-319d-478b-909e-fc65443f86aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render\graphic">
+      <UniqueIdentifier>{802fe2b4-bc38-4f3c-b0a6-31fd06135fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render\graphic">
+      <UniqueIdentifier>{730f5bb8-5918-4c89-81d2-c7f3356e5055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render\graphic\D2D">
+      <UniqueIdentifier>{45d7fea3-f0c1-4ece-9856-999b7900bae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render\graphic\D2D">
+      <UniqueIdentifier>{d04899cb-2ee8-4227-b7ae-5aff543f277b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\types">
+      <UniqueIdentifier>{d1f98fd9-6eec-4d2d-9649-09604d34ca54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\scenes">
+      <UniqueIdentifier>{1a406e09-5f9d-49e8-8a1f-723b3358be26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\scene">
+      <UniqueIdentifier>{225b801f-6c85-4297-8822-3b1c8bb24a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\controls">
+      <UniqueIdentifier>{226349b2-2441-4ab7-8d1b-f155ca0a7d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\controls">
+      <UniqueIdentifier>{b5d29474-215a-4b02-b3df-f32798385dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\system">
+      <UniqueIdentifier>{fe4aafb6-d382-425a-af25-aed4a05cfc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\system\font">
+      <UniqueIdentifier>{ce2004dc-0d08-4206-a4ed-70dc5a1fe68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\system">
+      <UniqueIdentifier>{149d9ac6-a8d1-472c-942d-9cbe67d0f119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\system\font">
+      <UniqueIdentifier>{7f8608f1-aaa0-40ec-9cf9-087ee6300d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\math">
+      <UniqueIdentifier>{aa52b963-1d58-42ad-9db6-ecaaf2277c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\math">
+      <UniqueIdentifier>{77a75096-3841-4284-b571-a3db84f27e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\core\render\graphic\data">
+      <UniqueIdentifier>{40bf3a58-ec90-4111-baca-686702346d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\core\render\types">
+      <UniqueIdentifier>{fe6c05ad-fe3e-4c06-b765-85a28a89d2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\com\upc\libs\pugixml">
+      <UniqueIdentifier>{2662bbb4-74fe-45eb-9e6f-889fccf9e92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\com\upc\libs\pugixml">
+      <UniqueIdentifier>{7e2b84c8-5d1c-460b-b4fc-fb5fddf52a4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NWindow.h">
+      <Filter>Header Files\com\upc\display</Filter>
+    </ClInclude>
+    <ClInclude Include="NEnumWindowFlags.h">
+      <Filter>Header Files\com\upc\display</Filter>
+    </ClInclude>
+    <ClInclude Include="FatalError.h">
+      <Filter>Header Files\com\upc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NCamera2D.h">
+      <Filter>Header Files\com\upc\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseCamera.h">
+      <Filter>Header Files\com\upc\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NFramework.h">
+      <Filter>Header Files\com\upc</Filter>
+    </ClInclude>
+    <ClInclude Include="NContentManagement.h">
+      <Filter>Header Files\com\upc\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseContent.h">
+      <Filter>Header Files\com\upc\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="PicoPNG.h">
+      <Filter>Header Files\com\upc\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseShader.h">
+      <Filter>Header Files\com\upc\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="NImageContent.h">
+      <Filter>Header Files\com\upc\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="NShaderManagement.h">
+      <Filter>Header Files\com\upc\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="NPrimitiveShader.h">
+      <Filter>Header Files\com\upc\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="NSpriteShader.h">
+      <Filter>Header Files\com\upc\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="NDrawable2D.h">
+      <Filter>Header Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="NColor.h">
+      <Filter>Header Files\com\upc\core\types</Filter>
+    </ClInclude>
+    <ClInclude Include="NPrimitiveQuad.h">
+      <Filter>Header Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="dtPrimitiveVertex.h">
+      <Filter>Header Files\com\upc\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="NPrimitiveCircumference.h">
+      <Filter>Header Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="NSprite.h">
+      <Filter>Header Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="dtSpriteVertex.h">
+      <Filter>Header Files\com\upc\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseScene.h">
+      <Filter>Header Files\com\upc\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="NSceneGraph.h">
+      <Filter>Header Files\com\upc\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNCharacterASCII.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNCharacterUnicode.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontCharDescriptor.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontCharset.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontKerning.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontPage.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontParser.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNBitmapFontRawType.h">
+      <Filter>Header Files\com\upc\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NCommon.h">
+      <Filter>Header Files\com\upc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInterval.h">
+      <Filter>Header Files\com\upc\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files\com\upc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\com\upc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\com\upc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHelper.h">
+      <Filter>Header Files\com\upc\math</Filter>
+    </ClInclude>
+    <ClInclude Include="NTextfield2D.h">
+      <Filter>Header Files\com\upc\core\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="NFontShader.h">
+      <Filter>Header Files\com\upc\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="dtPositionTextureColor.h">
+      <Filter>Header Files\com\upc\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Header Files\com\upc\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="NFontContent.h">
+      <Filter>Header Files\com\upc\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Header Files\com\upc\libs\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>Header Files\com\upc\libs\pugixml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NWindow.cpp">
+      <Filter>Source Files\com\upc\display</Filter>
+    </ClCompile>
+    <ClCompile Include="FatalError.cpp">
+      <Filter>Source Files\com\upc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NFramework.cpp">
+      <Filter>Source Files\com\upc</Filter>
+    </ClCompile>
+    <ClCompile Include="NCamera2D.cpp">
+      <Filter>Source Files\com\upc\core\render\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NBaseContent.cpp">
+      <Filter>Source Files\com\upc\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="NContentManagement.cpp">
+      <Filter>Source Files\com\upc\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="PicoPNG.cpp">
+      <Filter>Source Files\com\upc\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="NBaseShader.cpp">
+      <Filter>Source Files\com\upc\core\render\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="NImageContent.cpp">
+      <Filter>Source Files\com\upc\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="NShaderManagement.cpp">
+      <Filter>Source Files\com\upc\core\render\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="NDrawable2D.cpp">
+      <Filter>Source Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="NPrimitiveQuad.cpp">
+      <Filter>Source Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="NPrimitiveCircumference.cpp">
+      <Filter>Source Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="NSprite.cpp">
+      <Filter>Source Files\com\upc\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="NSceneGraph.cpp">
+      <Filter>Source Files\com\upc\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="NBitmapFontParser.cpp">
+      <Filter>Source Files\com\upc\core\system\font</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInterval.cpp">
+      <Filter>Source Files\com\upc\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\com\upc\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\com\upc\math</Filter>
+    </ClCompile>
+    <ClCompile Include="NTextfield2D.cpp">
+      <Filter>Source Files\com\upc\core\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="NFontContent.cpp">
+      <Filter>Source Files\com\upc\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="NColor.cpp">
+      <Filter>Source Files\com\upc\core\render\types</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files\com\upc\libs\pugixml</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
