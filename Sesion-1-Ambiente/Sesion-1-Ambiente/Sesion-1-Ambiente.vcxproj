@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="AppSceneGraph.h" />
     <ClInclude Include="EnumAppScenes.h" />
+    <ClInclude Include="SH_EnumBullet.h" />
     <ClInclude Include="GameApp_Shooter2D.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="NGameApplication.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="SH_EnemyBullet.h" />
     <ClInclude Include="SH_EnemyController.h" />
     <ClInclude Include="SH_Engine.h" />
+    <ClInclude Include="SH_EnumEnemy.h" />
     <ClInclude Include="SH_GameHUD.h" />
     <ClInclude Include="SH_Player.h" />
     <ClInclude Include="SH_PlayerBullet.h" />

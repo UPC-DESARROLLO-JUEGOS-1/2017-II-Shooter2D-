@@ -17,11 +17,16 @@ public:
 	SH_EnemyController* GetEnemmyController() { return mEnemmyController; }
 	SH_BulletController* GetBulletController() { return mBulletController; }
 
+	float GetScreenWidth() { return mScreenWidth; }
+	float GetScreenHeight() { return mScreenHeight; }
+
 	void Initialize(SH_Engine* engine);
 	void Update(float dt);
 	void Draw(float dt);
 
 private:
+	float mScreenWidth, mScreenHeight;
+
 	SH_Engine* mEngine;
 
 	SH_Player* mPlayer;

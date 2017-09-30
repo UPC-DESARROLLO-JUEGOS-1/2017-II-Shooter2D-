@@ -6,7 +6,7 @@
 class NGameApplication
 {
 public:
-	static const int WIDTH = 800;
+	static const int WIDTH = 400;
 	static const int HEIGHT = 600;
 
 	NGameApplication();

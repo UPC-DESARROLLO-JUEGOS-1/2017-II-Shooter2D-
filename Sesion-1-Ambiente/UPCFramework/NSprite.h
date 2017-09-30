@@ -13,12 +13,15 @@ public:
 
 	int GetWidth() { return mWidth; }
 	int GetHeight() { return mHeight; }
-	int GetVisibleWidth() { return mWidth * mScaleX; }
-	int GetVisibleHeight() { return mHeight * mScaleY; }
+	int GetVisibleWidth() { return abs(mWidth * mScaleX); }
+	int GetVisibleHeight() { return abs(mHeight * mScaleY); }
 
 	void Initialize(float x, float y, const std::string path);
 	void Initialize(float x, float y, float width,
 		float height, const std::string path);
+
+	void SetColor(NColor color);
+
 	void Draw(float dt);
 protected:
 	float mWidth;

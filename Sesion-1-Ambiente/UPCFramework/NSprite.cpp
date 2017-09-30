@@ -99,6 +99,39 @@ void NSprite::Initialize(float x, float y, float width,
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
 
+void NSprite::SetColor(NColor color) {
+	dtSpriteVertex vertexData[6];
+	// primer triangulo
+	vertexData[0].SetPosition(mWidth, mHeight);
+	vertexData[0].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[0].SetUV(1.0f, 1.0f);
+
+	vertexData[1].SetPosition(0, mHeight);
+	vertexData[1].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[1].SetUV(0.0f, 1.0f);
+
+	vertexData[2].SetPosition(0, 0);
+	vertexData[2].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[2].SetUV(0.0f, 0.0f);
+	// segundo triangulo
+	vertexData[3].SetPosition(0, 0);
+	vertexData[3].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[3].SetUV(0.0f, 0.0f);
+
+	vertexData[4].SetPosition(mWidth, 0);
+	vertexData[4].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[4].SetUV(1.0f, 0.0f);
+
+	vertexData[5].SetPosition(mWidth, mHeight);
+	vertexData[5].SetColor(color.R, color.G, color.B, color.A);
+	vertexData[5].SetUV(1.0f, 1.0f);
+
+	glBindBuffer(GL_ARRAY_BUFFER, mVBO_ID);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertexData), vertexData, GL_STATIC_DRAW);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+}
+
 void NSprite::Draw(float dt)
 {
 	// Blending

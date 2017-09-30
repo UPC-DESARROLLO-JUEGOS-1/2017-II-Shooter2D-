@@ -11,7 +11,7 @@ NDrawable2D::NDrawable2D() :
 
 NDrawable2D::~NDrawable2D()
 {
-	delete mCurrentShader;
+	mCurrentShader = nullptr;
 	mRenderCamera = nullptr;
 
 	if (mVBO_ID != 0) {

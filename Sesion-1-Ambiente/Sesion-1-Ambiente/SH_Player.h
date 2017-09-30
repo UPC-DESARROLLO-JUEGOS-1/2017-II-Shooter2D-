@@ -20,6 +20,5 @@ public:
 
 private:
 	SH_PlayerControl* mControl;
-	SH_World* mWorld;
 };
 

@@ -2,7 +2,7 @@
 
 #include "SH_BaseBullet.h"
 
-class SH_EnemyBullet
+class SH_EnemyBullet : public SH_BaseBullet
 {
 public:
 	SH_EnemyBullet();

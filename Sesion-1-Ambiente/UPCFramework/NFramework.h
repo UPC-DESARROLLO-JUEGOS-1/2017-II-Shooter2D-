@@ -17,6 +17,8 @@ class NFramework
 {
 public:
 	static NFramework* GET_FRAMEWORK();
+	static float GET_SCREEN_WIDTH();
+	static float GET_SCREEN_HEIGHT();
 
 	NFramework();
 	~NFramework();
@@ -25,6 +27,9 @@ public:
 	NShaderManagement* GetShaderManagment() { return &mShaderManagment; }
 	NContentManagement* GetContentManagement() { return &mContentManagement; }
 	NSceneGraph* GetSceneGraph() { return mSceneGraph; }
+
+	float GetScreenWidth() { return mScreenWidth; }
+	float GetScreenHeight() { return mScreenHeight; }
 
 	void Initialize(std::string windowName, int screenWidth, 
 		int screenHeight, unsigned int windowFlags);

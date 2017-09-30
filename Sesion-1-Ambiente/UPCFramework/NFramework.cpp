@@ -5,6 +5,9 @@
 NFramework* NFramework::M_FRAMEWORK;
 NFramework* NFramework::GET_FRAMEWORK() { return M_FRAMEWORK; }
 
+float NFramework::GET_SCREEN_WIDTH() { return M_FRAMEWORK->GetScreenWidth(); }
+float NFramework::GET_SCREEN_HEIGHT() { return M_FRAMEWORK->GetScreenHeight(); }
+
 NFramework::NFramework() :
 	mScreenWidth(0), mScreenHeight(0),
 	mFrameworkState(NEnumFrameworkState::Running),
